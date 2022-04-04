@@ -1,9 +1,15 @@
-* { color: white; 
+* {  color: rgb(0, 0, 0); 
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  background-color: rgb(246, 228, 247);
+ background-color: rgb(170, 178, 214);
+ font-family: cursive;
+
  
 }
-.container-fluid { padding-top:20px;
- 
+.container-fluid { padding:20px 0;
 }
+
+.container-fluid img{
+  cursor: pointer;
+}
+
+
