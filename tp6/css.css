@@ -1,15 +1,26 @@
 * {  color: rgb(0, 0, 0); 
-  text-align: center;
- background-color: rgb(170, 178, 214);
- font-family: cursive;
+    text-align: center;
+    font-family:sans-serif;
 
  
 }
-.container-fluid { padding:20px 0;
-}
 
+.container-fluid { 
+  padding-top: 20px;
+  background-color: rgb(231, 169, 205);
+}
 .container-fluid img{
   cursor: pointer;
 }
 
+.texto77{
+  height: 580px;
+  background-color: rgb(252, 231, 234);
+}
+.texto77 > .row{
+  padding:40px 5px;
+}
 
+.footer{
+  background-color:rgb(212, 146, 185);
+}
