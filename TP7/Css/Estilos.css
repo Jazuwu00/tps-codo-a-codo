@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    text-align: center;
+}
+img{
+    border: 2px solid white;
+}
+
+h4,a{
+    color:rgb(252, 110, 54);
+    text-decoration: none;
+}
+p,h3{
+    text-align: left;
+}
+#Actual{
+    color:rgb(214, 155, 26);
+}
