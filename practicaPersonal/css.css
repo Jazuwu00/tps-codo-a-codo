@@ -19,7 +19,7 @@ body{
   font-weight: 400;
 
 }
-p a{
+p a , li a,div a{
   text-decoration: none;
   color: blueviolet;
      }
@@ -27,3 +27,12 @@ p a{
 #desplegar{
   display:none;
 }
+footer .main-footer{  padding: 20px; margin: 0;}
+footer ul{  padding-left: 0;  list-style: none;}
+footer{
+
+  bottom: 0;
+ 
+ 
+}
+
