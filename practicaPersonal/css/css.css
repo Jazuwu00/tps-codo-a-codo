@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+/* video de fondo*/
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+/*body*/
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+}
+/*contenido del cuerpo*/
+
+#content-preguntas .row{
+  background-color: rgb(0, 0, 0);
+  width: 400px;
+  color: #f3f3f3;
+  margin-left: 22px;
+  margin-bottom: 40px;
+  height:30px;
+
+}
+#content-nosotros,#content-preguntas,#content{
+  height: 570px;
+  background-color:rgba(14, 13, 13, 0.836);
+  color: rgb(226, 224, 224);
+}
+/*Atributos de a*/
+p a,
+li a,
+div a {
+  text-decoration: none;
+  color: rgb(208, 129, 245);
+}
+p a:hover,
+li a:hover,
+div a:hover {
+  color: rgb(216, 168, 255);
+}
+
+/* video de fondo*/
+button{ height: 50px;
+  width: 150px;
+  background-color: rgba(125, 57, 235, 0.445);
+  border:none;
+}
+
+button a {
+ 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/*footer*/
+
+footer { 
+  
+  background: #000000fd;
+  min-height: 100px;;
+}
+footer p{
+  color:#f3f3f3;
+  text-align:center;
+}
+#iconos  i {
+  font-size: 26px;
+  padding: 0 8px;
+  color:#ffffff59;
+}

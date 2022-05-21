@@ -1,10 +1,18 @@
-function vermas(id){
-    if(id=="mas"){
-    document.getElementById("desplegar").style.display="block";   
-    document.getElementById("mas").style.display="none"; 
+
+
+function cambiarColor(){
+    var element=document.getElementById("miTexto");
+   element.style.color="#907";
+}
+
+let ubicacionPrincipal=window.pageYOffset; //0(sin desplazamiento)
+  AOS.init();
+window.addEventListener ("scroll", function(){
+    let desplazamientoActual=window.pageYOffset;
+    if(ubicacionPrincipal >= desplazamientoActual){
+        document.getElementsByTagName ("nav")[0].style.top="@px"
+    }else{
+         document.getElementsByTagName ("nav") [0].style.top="-100px"
     }
-    else{
-    document.getElementById("desplegar").style.display="none";
-    document.getElementById("mas").style.display="inline";
-    }
-    }
+    ubicacionPrincipal= desplazamientoActual; 
+    })
